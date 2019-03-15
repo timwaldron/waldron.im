@@ -1,0 +1,54 @@
+body {
+  margin: 0px;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+
+  background: dodgerblue;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid-container {
+  width: 1000px;
+  height: 600px;
+  background: white;
+
+  display: grid;
+  grid-template-columns: 0.4fr 0.3fr 0.3fr;
+  grid-template-rows: 200px 200px 200px;
+}
+
+.avatar-container {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.avatar {
+  background: black;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+}
+.avatar:hover {
+  background: dodgerblue;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.about-me-container {
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
