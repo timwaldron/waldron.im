@@ -2,10 +2,12 @@ body {
   margin: 0px;
 }
 
+/* Samsung S9 Plus */
+
+
 .container {
-  position: flex;
-  width: 100vw;
-  height: 100vh;
+  width: 360px;
+  height: 740px;
   
   background: #2C363F;
 }
