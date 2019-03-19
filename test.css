@@ -4,8 +4,8 @@ body {
 
 .container {
   position: relative;
-  width: 375px;
-  height: 667px;
+  width: 100vh;
+  height: 100vh;
   
   background: #2C363F;
 }
@@ -25,14 +25,14 @@ body {
   
   background: #C5D86D;
   border-radius: 20px 0px;
-
+  animation-duration: 2s;
 }
 .menu-button:hover {
-  /* box-shadow: 0px 8px 6px -6px black; */
-  animation: bubble 1.0s forwards;
+  animation: bubble 1s forwards;
+  /* animation-duration: 1s; */
   animation-name: move-position-effect;
-  /* animation-duration: 2s; */
 }
+
 @keyframes move-position-effect {
   from {padding-right: 0px;}
   to {padding-right: 50%;}
