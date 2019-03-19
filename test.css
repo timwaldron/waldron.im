@@ -3,8 +3,8 @@ body {
 }
 
 .container {
-  position: relative;
-  width: 100vh;
+  position: flex;
+  width: 100vw;
   height: 100vh;
   
   background: #2C363F;
@@ -54,15 +54,15 @@ body {
   width: 100px;
   height: 100px;
   background: white;
-  border: 1px solid black;
-  border-radius: 40%;
-  position: relative;
-  
-  animation-name: move-position-effect;
-  animation-duration: 4s;
-}
-
-
+relative
+relative
+relative
+relative
+relativeffect;
+relative
+relative
+relative
+relative
 /* 
 position: absolute;
 width: 26.02px;
