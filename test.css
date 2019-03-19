@@ -8,6 +8,9 @@ body {
   /* height: 846px; */
   height: 100vh;
   
+  box-sizing: border-box;
+  border: 3px solid white;
+
   background: #2C363F;
 }
 
