@@ -15,7 +15,7 @@
 
 /* Desktop */
 .container {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background: var(--gunmetal);
 
@@ -26,10 +26,20 @@
 
 /* Tablets */
 
+/* Samsung S9 */
+/* 360x740 */ 
+@media only screen and (max-width: 360px){
+  .container {
+    width: 360px;
+    height: 740px;
+  }
+}
+
 /* Samsung S9 Plus */
-@media only screen and (min-width: 360px) and (max-width: 767px) {
+/* 412×846 */
+@media only screen and (max-width: 412px) {
   .container {
     width: 412px;
-    height: 740px;
+    height: 846px;
   }
 }
