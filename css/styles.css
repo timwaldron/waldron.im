@@ -27,7 +27,7 @@
 /* Tablets */
 
 /* Samsung S9 Plus */
-@media only screen and (max-width: 412px) {
+@media only screen and (min-width: 360px) and (max-width: 767px) {
   .container {
     width: 412px;
     height: 740px;
