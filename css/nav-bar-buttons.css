@@ -1,0 +1,36 @@
+
+.nav-button-container {
+  height: 10%;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-button {
+  height: 50px;
+  width: 95px;
+  border-radius: 7px;
+  background: var(--light-green);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+  color: var(--gunmetal);
+}
+.nav-button:hover {
+  background: var(--light-green-hover);
+}
+
+#nav-button-bracket {
+  font-size: 33px;
+  margin: 0px 2px;
+  color: white;
+}
+#nav-button-page {
+  font-size: 18px;
+  margin-top: 1px;
+}
