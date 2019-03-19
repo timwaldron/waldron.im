@@ -15,7 +15,7 @@
 
 /* Desktop */
 .container {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background: var(--gunmetal);
 
@@ -28,18 +28,18 @@
 
 /* Samsung S9 */
 /* 360x740 */ 
-@media only screen and (max-width: 360px){
+/* @media only screen and (max-width: 360px){
   .container {
     width: 360px;
     height: 740px;
   }
-}
+} */
 
 /* Samsung S9 Plus */
 /* 412×846 */
-@media only screen and (max-width: 412px) {
+/* @media only screen and (max-width: 412px) {
   .container {
     width: 412px;
     height: 846px;
   }
-}
+} */
