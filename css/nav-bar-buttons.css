@@ -32,5 +32,9 @@
 }
 #nav-button-page {
   font-size: 18px;
-  margin-top: 1px;
+  margin-top: 2px;
+}
+
+@media only screen and (max-width: 412px) {
+
 }
