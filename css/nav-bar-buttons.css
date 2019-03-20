@@ -1,10 +1,23 @@
+/* Desktop view first */
+
+/* Everything crammed into the .nav-container
+that's how we deal with switching positions for desktop/tablet/mobile */
+/* .nav-container {
+  width: 50vw;
+  
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+} */
 
 .nav-button-container {
   height: 10%;
   width: 100%;
+  box-sizing: border-box;
+  border: 1px solid white;
 
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -12,15 +25,16 @@
   height: 50px;
   width: 95px;
   border-radius: 7px;
-  background: var(--light-green);
+  background: var(--gunmetal);
 
   display: flex;
   justify-content: center;
   align-items: center;
 
   text-decoration: none;
-  color: var(--gunmetal);
+  color: var(--white);
 }
+
 .nav-button:hover {
   background: var(--light-green-hover);
 }
@@ -35,6 +49,31 @@
   margin-top: 2px;
 }
 
-@media only screen and (max-width: 412px) {
+/* Handles different devices */
 
+@media only screen and (max-width: 413px) {
+  /* Mobile (Samsung S9+) */
+
+  .nav-container {
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .nav-button {
+    /* height: 50px;
+    width: 95px;
+    border-radius: 7px; */
+    background: var(--light-green);
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    text-decoration: none;
+    color: var(--gunmetal);
+  }
+}
+@media only screen and (min-width: 412px) and (max-width: 1101px) {
+  .nav-button {
+    background: dodgerblue;
+  }
 }
