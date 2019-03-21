@@ -1,0 +1,17 @@
+/* .header-container {
+  height: 10%;
+  width: 50vw;
+  box-sizing: border-box;
+  border: 1px solid white;
+} */
+
+.logo-container {
+  font-size: 48px;
+}
+
+@media only screen and (min-width: 414px) and (max-width: 1050px) {
+  .logo-container {
+    font-size: 4vw;
+    background: blue;
+  }
+}
