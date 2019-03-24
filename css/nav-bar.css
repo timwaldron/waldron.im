@@ -11,7 +11,7 @@ that's how we deal with switching positions for desktop/tablet/mobile */
 }
 
 @media only screen and (max-width: 412px) {
-  .navbar-container {
+  .navbar-container {`
     display: wrap;
     justify-content: center;
     align-items: center;
