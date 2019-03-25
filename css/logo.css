@@ -9,6 +9,10 @@
   font-size: 48px;
 }
 
+.image-nice {
+  border-radius: 30px;
+}
+
 .social {
   width: 50%;
   margin-top: 20px;
@@ -33,6 +37,7 @@
   /* background: black; */
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -43,13 +48,13 @@
   font-size: 72px;
 }
 
-.email-container {
+/* .email-container {
 
-}
+} */
 .mobile-container i {
   font-size: 64px;
 }
-.github-container {
+/* .github-container {
 
 }
 .linkedin-container {
@@ -60,9 +65,9 @@
 }
 .plug-logo-decoration {
 
-}
+} */
 
-.plug-logo-1 {
+/* .plug-logo-1 {
   grid-row: 1 / 2;
   grid-column: 1 / 2;
 }
@@ -86,7 +91,7 @@
 .plug-text-3 {
   grid-row: 3 / 4;
   grid-column: 2 / 3;
-}
+} */
 
 .plug-text-decoration {
   display: flex;
