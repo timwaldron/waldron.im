@@ -1,0 +1,42 @@
+.navbar-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hamburger-icon {
+  margin: 15px 15px 0px 0px;
+  position: fixed;
+  width: 75px;
+  height: 75px;
+  background: var(--light-green);
+
+  /* border-radius: 14px; */
+  border-top-left-radius: 14px;
+  border-top-right-radius: 14px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hamburger-icon:hover .hamburger-line  {
+  margin: 15px;
+  transform: rotate(225deg);
+}
+
+.hamburger-links {
+
+}
+
+.hamburger-arrow {
+  /* margin: 15px 0px; */
+
+  height: 30px;
+  width: 30px;
+  transform: rotate(45deg);
+  /* box-sizing: border-box; */
+  border-right: 2px solid var(--gunmetal);
+  border-bottom: 2px solid var(--gunmetal);
+  /* border: 2px solid var(--gunmetal);  */
+  /* border-radius: 5px; */
+}
