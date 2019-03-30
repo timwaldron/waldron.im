@@ -3,6 +3,12 @@
   justify-content: flex-end;
 }
 
+.navbar-buttons {
+  height: 50px;
+  /* width: 20%; */
+  background: dodgerblue;
+}
+
 .hamburger-icon {
   margin: 15px 15px 0px 0px;
   position: fixed;
