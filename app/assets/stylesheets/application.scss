@@ -14,9 +14,31 @@
 
  // Custom bootstrap variables must be set or imported *before* bootstrap.
 @import "bootstrap";
+
+@import url("./welcome/index.scss");
+@import url("./shared/navbar.scss");
+@import url("./shared/header.scss");
+@import url("./shared/footer.scss");
+
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
 * {
   margin: 0;
   font-family: Ubuntu, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.master-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.content-container {
+  height: 100%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
