@@ -1,0 +1,14 @@
+.navbar-container {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-tab {
+  margin: 0 10px 0 10px;
+}
+.navbar-tab:hover {
+  font-size: 20px;
+  cursor: default;
+}

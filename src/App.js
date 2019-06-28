@@ -1,17 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p><strong>waldron.im</strong> is being redesigned using React!</p>
-        <small>Thank you for your patience</small>
-      </header>
-    </div>
-  );
-}
+import Navbar from './components/Navbar';
+import Content from './components/Content';
+import Footer from './components/Footer';
 
-export default App;
+
+export default class App extends React.Component {
+
+  state = {
+    currentView: "home",
+  };
+
+  handleView = () => {
+    switch(this.state.currentView) {
+
+      case "home":
+      default:
+        this.renderHome();
+    }
+  }
+
+  render = () => {
+    return (
+      <div className="App">
+        <Navbar />
+        <Content />
+        <Footer />
+      </div>
+    );
+  }
+}
