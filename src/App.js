@@ -21,11 +21,19 @@ export default class App extends React.Component {
     }
   }
 
+  updateView = (view) => {
+    console.log("Updaing view to:", view);
+
+    this.setState({
+      currentView: view
+    });
+  }
+
   render = () => {
     return (
       <div className="App">
-        <Navbar />
-        <Content />
+        <Navbar updateView={this.updateView}/>
+        <Content selectedView={this.state.currentView}/>
         <Footer />
       </div>
     );

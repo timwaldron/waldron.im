@@ -5,10 +5,20 @@
   align-items: center;
 }
 
+.navbar-tab-container {
+  height: 40px;
+  width: 9.5vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .navbar-tab {
   margin: 0 10px 0 10px;
 }
+
 .navbar-tab:hover {
-  font-size: 20px;
+  font-size: 19px;
   cursor: default;
 }

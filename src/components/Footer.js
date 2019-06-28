@@ -6,17 +6,20 @@ export default class Footer extends Component {
   render = () => {
     return (
       <div className="footer-container">
-        <a href="https://github.com/timwaldron" _target="blank">
-          <div className="image-container">
-            <img className="custom-image" alt="GitHub logo" src={process.env.PUBLIC_URL + "/images/github.png"} />
-          </div>
-        </a>
 
-        <a href="https://www.linkedin.com/in/timothy-waldron-1b700914b/" _target="blank">
+        <div className="image-container">
+          <img className="custom-image"
+               alt="GitHub logo"
+               src={process.env.PUBLIC_URL + "/images/github.png"}
+               onClick={() => window.open("https://github.com/timwaldron", "_blank")} />
+        </div>
+
           <div className="image-container">
-            <img className="custom-image" alt="LinkedIn logo" src={process.env.PUBLIC_URL + "/images/linkedin.png"} />
+            <img className="custom-image"
+                 alt="LinkedIn logo"
+                 src={process.env.PUBLIC_URL + "/images/linkedin.png"}
+                 onClick={() => window.open("https://www.linkedin.com/in/timothy-waldron-1b700914b/", "_blank")} />
           </div>
-        </a>
 
         <a href="mailto:tim@waldron.im?Subject=Hey%20mate!">
           <div className="image-container">
