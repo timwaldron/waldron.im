@@ -15,8 +15,10 @@ export default class Navbar extends Component {
       <div className="navbar-container">
         {tabs.map((tab, index) => {
           return (
-            <div className="navbar-tab-container">
-              <p key={index} className="navbar-tab" id={tab} onClick={this.setNewView}>{`{ ${tab} }`}</p>
+            <div key={index} className="navbar-tab-container">
+              <span>{'{ "'}</span>
+              <p key={index} className="navbar-tab" id={tab} onClick={this.setNewView}>{tab}</p>
+              <span>{'" }'}</span>
             </div>
           );
         })}

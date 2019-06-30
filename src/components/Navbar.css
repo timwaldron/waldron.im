@@ -1,3 +1,20 @@
+:root {
+  /* Color Scheme For My VS Code */
+  --prog-declare-func: #C678DD;
+  --prog-variable: #ABB2BF;
+  --prog-operator: #56B6C2;
+  --prog-numeric: #D19A66;
+  --prog-class-ref: #E5C076;
+  --prog-func-name: #61AFEF;
+
+  /* Website Color Scheme */
+  --duck-egg-blue: #31C1FD;
+  --light-green: #C5D86D;
+  --light-green-hover: #A9B95E;
+  --gunmetal: #2C363F;
+  --white: #FFFFFF;
+}
+
 .navbar-container {
   height: 100px;
   display: flex;
@@ -7,7 +24,7 @@
 
 .navbar-tab-container {
   height: 40px;
-  width: 9.5vw;
+  margin: 0 5px 0 5px;
 
   display: flex;
   justify-content: center;
@@ -15,10 +32,21 @@
 }
 
 .navbar-tab {
-  margin: 0 10px 0 10px;
+  font-size: 16px;
+  /* margin: 0 7px 0 7px; */
+  display: flex;
+  /* flex-direction: row; */
+  /* justify-content: center; */
+  align-items: center;
 }
 
 .navbar-tab:hover {
-  font-size: 19px;
+  color: #A9B95E;
   cursor: default;
+}
+
+@media only screen and (max-width: 525px) {
+  .navbar-tab-container span {
+    display: none;
+  }
 }
